@@ -1,0 +1,38 @@
+{
+    "name": "amedvedev/laravel-settings-lite",
+    "description": "Storage of simple key-value app settings in db with cache",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^12",
+        "illuminate/database": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amedvedev\\LaravelSettingsLite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Medvedev",
+            "email": "alekhimkirus58-0@yandex.ru"
+        }
+    ],
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amedvedev\\LaravelSettingsLite\\SettingsServiceProvider"
+            ]
+        }
+    },
+
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "settings",
+        "key-value",
+        "cache",
+        "database"
+    ]
+}
